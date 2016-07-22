@@ -1,0 +1,48 @@
+body { font-family: "Roboto Condensed";}
+
+.jumbotron#newleafshop { background-color: #000; color: #ffffff; position: relative;}
+
+h1 a, h1 a:hover, h1 a:visited, h1 a:active { text-decoration: none!important; color: #ffffff!important;}
+
+/*.text-center h1 { text-align: left;}*/
+.logo { margin: 20px;}
+.fb { position: absolute; bottom: 5%; right: 2%;}
+
+.thumbnail.main { border: 0}
+
+.thumbnail.featured { border: 0}
+
+.thumbnail.featured .info{ text-align: left; margin-left: 10%;}
+
+.thumbnail.featured .info h3 { margin-top: 0px;}
+
+.newButton { border: 1px solid #dddddd; background-color: #000000; color: #dddddd; text-align: left; padding: 8px; display: inline-block; margin: 10px 5px 0 0;}
+.newButton.bottom { margin-bottom: 20px;}
+.newButton:hover { border-color: #000000; background-color: #dddddd; color: #000000;} 
+
+.modal-body p { text-align: left;}
+
+.text-center .returnToMain { text-align: left; padding-left: 30px;}
+.returnToMain.topRTM { margin: 5px 0;} 
+.returnToMain.footerRTM { margin: 10px 0 20px 0;} 
+.returnToMain:hover { text-decoration: underline; cursor:pointer;}
+.returnto { margin: 0 3px 3px 0}
+
+a[href^="tel"] {color: #000000;}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+	.fb { /*position: initial;*/ margin: 10px 10px 8px 10px; width: 17px; height: 17px;}
+
+.jumbotron#newleafshop  {
+    padding: 0 0 5px 0!important; margin-bottom: 0;
+}
+
+.jumbotron#newleafshop h1 {font-size: 20px; margin-top: 0!important;}
+.jumbotron#newleafshop h2 {font-size: 15px; margin-top: 0!important; }
+
+.returnToMain.topRTM { margin: 10px 0;} 
+.returnToMain.footerRTM { margin: 0px 0 50px 0;} 
+
+}
